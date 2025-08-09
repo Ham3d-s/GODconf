@@ -1,0 +1,39 @@
+Copyright (c) 2025, Ham3d-s
+
+All rights reserved.
+
+This license grants you the following rights, provided you comply with the conditions specified below.
+
+### 1. Permissions
+
+You are hereby granted permission, free of charge, to use, copy, modify, and distribute this software and its associated documentation files (the "Software") for the following purposes ONLY:
+
+-   **Personal Use:** Running the software for your own individual, non-commercial purposes.
+-   **Educational Use:** Using the software for learning, teaching, or academic research.
+-   **Testing and Evaluation:** Evaluating the software's functionality and performance.
+
+### 2. Restrictions
+
+The permissions granted in Section 1 are subject to the following restrictions. You may NOT, without prior written permission from the copyright holder (Ham3d-s):
+
+-   **Commercial Use:** Use the Software or any of its components (including its output data) in any project, product, or service that generates revenue, either directly or indirectly. This includes, but is not limited to, incorporating it into a commercial application, using it as part of a paid service, or deploying it within a for-profit organization's infrastructure.
+-   **Sublicense or Sell:** Sublicense, sell, or rent the Software or any of its components.
+
+To request permission for commercial use, please contact the copyright holder by opening an issue on the source GitHub repository.
+
+### 3. Conditions (Attribution)
+
+Any use, distribution, or modification of the Software, whether for commercial or non-commercial purposes, must comply with the following condition:
+
+-   **Attribution:** You must include a clear and conspicuous attribution to the original project in a user-facing or easily accessible part of your project (e.g., an "About" page, footer, or in the source code documentation). This attribution must include:
+    1.  The name of the original author: **Ham3d-s**.
+    2.  A link to the original source repository: **https://github.com/Ham3d-s/GODconf/**.
+    3.  A copy of this license file.
+
+### 4. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+### 5. Limitation of Liability
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
