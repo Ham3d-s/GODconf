@@ -1,0 +1,57 @@
+{
+  "providers_config": [
+    {
+      "name": "OpenRouter",
+      "api_key_env": "OPENROUTER_API_KEY",
+      "type": "openai_compatible",
+      "config": {
+        "base_url": "https://openrouter.ai/api/v1",
+        "max_tokens": 8192,
+        "routing": {
+          "strategy": "sort",
+          "sort_by": "price",
+          "allow_fallbacks": true
+        },
+        "model_filters": {
+          "tier": "paid",
+          "min_context_window": 32768,
+          "supports_json": true
+        },
+        "models": [
+          { "name": "google/gemini-flash-1.5", "supports_json": true, "tier": "paid", "context_window": 1000000, "max_output": 8192 },
+          { "name": "google/gemini-2.5-flash-lite", "supports_json": true, "tier": "paid", "context_window": 1048576, "max_output": 65536 },
+          { "name": "google/gemini-2.0-flash-001", "supports_json": true, "tier": "paid", "context_window": 1048576, "max_output": 8192 }
+        ]
+      }
+    },
+    {
+      "name": "GoogleAI",
+      "api_key_env": "GEMINI_API_KEY",
+      "type": "google_ai",
+      "config": {
+        "model_name": "gemini-1.5-flash"
+      }
+    }
+  ],
+  "allowed_extensions": [".txt", ".json"],
+  "allowed_url_prefixes": ["https://raw.githubusercontent.com/"],
+  "connection_protocols": ["vless://", "vmess://", "trojan://", "ss://", "ssr://"],
+  "keyword_blacklist": ["dns-query", "logo", "font", "image", "speedtest", "license", "requirements", "example", "template"],
+  "ignored_extensions": [".jpg", ".jpeg", ".png", ".gif", ".md", ".pdf", ".yaml", ".yml"],
+  "request_timeout": 15,
+  "max_workers": 20,
+  "ai_chunk_size": 40,
+  "retry_settings": {
+    "total": 3,
+    "backoff_factor": 1
+  },
+  "categorization_patterns": [
+    { "name": "By Location", "regex": "subscriptions/location/(.*?)/" },
+    { "name": "By Channel", "regex": "subscriptions/channel/(.*?)/" },
+    { "name": "By Protocol", "regex": "subscriptions/xray/(.*?)/" },
+    { "name": "Daily Archives", "regex": "update/(\\d{4})/" },
+    { "name": "Public Subscriptions", "regex": "/(sub|subscriptions)/" },
+    { "name": "By Protocol", "regex": "Splitted-By-Protocol/" },
+    { "name": "By Country", "regex": "/(Countries)/" }
+  ]
+}

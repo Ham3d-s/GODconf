@@ -1,0 +1,17 @@
+.venv/
+venv/
+ENV/
+env/
+__pypackages__/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env*
+reports/
+*.log
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+structure.txt

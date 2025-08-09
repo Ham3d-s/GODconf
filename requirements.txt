@@ -1,0 +1,6 @@
+requests
+tqdm
+python-json-logger
+openai
+python-dotenv
+google-generativeai
