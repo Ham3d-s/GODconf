@@ -1,11 +1,5 @@
 # GODconf v1.0
 
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Ham3d-s/GODconf/godconf_workflow.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white)
-![GitHub last commit](https://img.shields.io/github/last-commit/Ham3d-s/GODconf?style=for-the-badge&color=blue)
-![Repo Size](https://img.shields.io/github/repo-size/Ham3d-s/GODconf?style=for-the-badge&color=green)
-![License](https://img.shields.io/github/license/Ham3d-s/GODconf?style=for-the-badge&color=lightgrey)
-
-
 An intelligent, fully-automated, and resilient configuration scanner that discovers, categorizes, and aggregates public configuration links from various GitHub repositories using a sophisticated multi-stage pipeline powered by Regex and Artificial Intelligence.
 
 The system is designed to run autonomously on a schedule, publishing its findings as a clean, structured Static API and a comprehensive visual dashboard.
