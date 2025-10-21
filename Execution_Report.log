@@ -1,45 +1,45 @@
 --- GODconf v1.0 Report ---
-Generated on: 2025-10-19T12:39:05.387168
+Generated on: 2025-10-21T12:46:02.250473
 ========================================
 
 **Overall Summary:**
   - Repositories Scanned: 5
-  - Total Files Analyzed: 2413
-  - Total Unique Links Found: 2205
-  - Links per File Ratio: 0.91
+  - Total Files Analyzed: 2421
+  - Total Unique Links Found: 2229
+  - Links per File Ratio: 0.92
   - AI Success Rate: 100.00%
-  - Total Execution Time: 77.53 seconds
+  - Total Execution Time: 92.11 seconds
 
 **Repository Breakdown:**
   - mahdibland/V2RayAggregator:
     - Status: Success
-    - Files Analyzed: 1240
-    - Links Found: 1235
-    - Scan Time: 8.02s
+    - Files Analyzed: 1242
+    - Links Found: 1237
+    - Scan Time: 11.21s
     - AI Success: 47/47 (100.0%)
   - itsyebekhe/PSG:
     - Status: Success
-    - Files Analyzed: 954
-    - Links Found: 752
-    - Scan Time: 6.51s
+    - Files Analyzed: 960
+    - Links Found: 773
+    - Scan Time: 9.25s
     - AI Success: 88/88 (100.0%)
   - SoliSpirit/v2ray-configs:
     - Status: Success
     - Files Analyzed: 128
-    - Links Found: 127
-    - Scan Time: 1.82s
+    - Links Found: 128
+    - Scan Time: 2.35s
     - AI Success: 128/128 (100.0%)
   - barry-far/V2ray-Config:
     - Status: Success
     - Files Analyzed: 73
     - Links Found: 73
-    - Scan Time: 0.98s
+    - Scan Time: 1.22s
     - AI Success: 68/68 (100.0%)
   - mahsanet/MahsaFreeConfig:
     - Status: Success
     - Files Analyzed: 18
     - Links Found: 18
-    - Scan Time: 0.52s
+    - Scan Time: 0.66s
     - AI Success: 18/18 (100.0%)
 
 ========================================
