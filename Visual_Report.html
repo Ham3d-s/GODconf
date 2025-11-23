@@ -37,32 +37,32 @@
     </head>
     <body>
         <div class="container">
-            <div class="header"><h1>GODconf</h1><p>Executive Dashboard & Performance Analysis</p><p>Generated on: 2025-11-23T01:56:48.321486</p></div>
+            <div class="header"><h1>GODconf</h1><p>Executive Dashboard & Performance Analysis</p><p>Generated on: 2025-11-23T12:39:09.876900</p></div>
             <div class="card"><h2>Key Performance Indicators (KPIs)</h2><div class="grid-container">
-                <div class="stat-card"><div class="value">2233</div><div class="label">Total Links Found</div></div>
+                <div class="stat-card"><div class="value">2231</div><div class="label">Total Links Found</div></div>
                 <div class="stat-card"><div class="value">5</div><div class="label">Repositories Scanned</div></div>
-                <div class="stat-card"><div class="value">2391</div><div class="label">Files Analyzed</div></div>
+                <div class="stat-card"><div class="value">2388</div><div class="label">Files Analyzed</div></div>
                 <div class="stat-card"><div class="value">0.93</div><div class="label">Links / File</div></div>
                 <div class="stat-card"><div class="value">100.0%</div><div class="label">AI Success Rate</div></div>
-                <div class="stat-card"><div class="value">77.36s</div><div class="label">Total Execution Time</div></div>
+                <div class="stat-card"><div class="value">81.06s</div><div class="label">Total Execution Time</div></div>
             </div></div>
             <div class="grid-container" style="grid-template-columns: 2fr 1fr;">
                 <div class="card"><h2>Category Distribution</h2><div class="chart-container"><canvas id="categoryChart"></canvas></div></div>
-                <div class="card top-contributors"><h2>Top Contributors</h2><ul><li>🥇 <strong>V2Rayaggregator</strong> (1270 links)</li><li>🥈 <strong>Psg</strong> (742 links)</li><li>🥉 <strong>V2Ray Configs</strong> (130 links)</li></ul></div>
+                <div class="card top-contributors"><h2>Top Contributors</h2><ul><li>🥇 <strong>V2Rayaggregator</strong> (1270 links)</li><li>🥈 <strong>Psg</strong> (740 links)</li><li>🥉 <strong>V2Ray Configs</strong> (130 links)</li></ul></div>
             </div>
             <div class="card"><h2>Repository Deep Dive</h2><table><thead><tr><th>Repository</th><th>Status</th><th>Files</th><th>Links</th><th>Time</th><th>Contribution</th><th>Categorization (Regex/AI)</th></tr></thead><tbody>
         <tr>
             <td><a href="https://github.com/mahdibland/V2RayAggregator" target="_blank">mahdibland/V2RayAggregator</a></td>
             <td><span class="status status-success">Success</span></td>
-            <td>1275</td>
+            <td>1276</td>
             <td>1270</td>
-            <td>10.90s</td>
+            <td>8.75s</td>
             <td class="progress-cell">
-                <div class="progress-bar-container"><div class="progress-bar" style="width: 56.87%;"></div></div>
-                <span>56.87%</span>
+                <div class="progress-bar-container"><div class="progress-bar" style="width: 56.93%;"></div></div>
+                <span>56.93%</span>
             </td>
             <td>
-                <span class="pill pill-regex">1223</span> / 
+                <span class="pill pill-regex">1224</span> / 
                 <span class="pill pill-ai">48</span>
             </td>
         </tr>
@@ -70,15 +70,15 @@
         <tr>
             <td><a href="https://github.com/itsyebekhe/PSG" target="_blank">itsyebekhe/PSG</a></td>
             <td><span class="status status-success">Success</span></td>
-            <td>895</td>
-            <td>742</td>
-            <td>7.51s</td>
+            <td>891</td>
+            <td>740</td>
+            <td>5.66s</td>
             <td class="progress-cell">
-                <div class="progress-bar-container"><div class="progress-bar" style="width: 33.23%;"></div></div>
-                <span>33.23%</span>
+                <div class="progress-bar-container"><div class="progress-bar" style="width: 33.17%;"></div></div>
+                <span>33.17%</span>
             </td>
             <td>
-                <span class="pill pill-regex">778</span> / 
+                <span class="pill pill-regex">776</span> / 
                 <span class="pill pill-ai">92</span>
             </td>
         </tr>
@@ -90,8 +90,8 @@
             <td>130</td>
             <td>1.85s</td>
             <td class="progress-cell">
-                <div class="progress-bar-container"><div class="progress-bar" style="width: 5.82%;"></div></div>
-                <span>5.82%</span>
+                <div class="progress-bar-container"><div class="progress-bar" style="width: 5.83%;"></div></div>
+                <span>5.83%</span>
             </td>
             <td>
                 <span class="pill pill-regex">0</span> / 
@@ -104,7 +104,7 @@
             <td><span class="status status-success">Success</span></td>
             <td>73</td>
             <td>73</td>
-            <td>1.09s</td>
+            <td>4.47s</td>
             <td class="progress-cell">
                 <div class="progress-bar-container"><div class="progress-bar" style="width: 3.27%;"></div></div>
                 <span>3.27%</span>
@@ -120,7 +120,7 @@
             <td><span class="status status-success">Success</span></td>
             <td>18</td>
             <td>18</td>
-            <td>0.59s</td>
+            <td>0.63s</td>
             <td class="progress-cell">
                 <div class="progress-bar-container"><div class="progress-bar" style="width: 0.81%;"></div></div>
                 <span>0.81%</span>
@@ -138,10 +138,10 @@
             new Chart(ctx, {
                 type: 'bar',
                 data: { 
-                    labels: ["Daily Archives", "By Channel", "Subscriptions", "By Location", "Geolocation", "By Protocol", "Public Subscriptions", "Utilities", "Configs"], 
+                    labels: ["Daily Archives", "By Channel", "Subscriptions", "By Location", "Geolocation", "By Protocol", "Utilities", "Public Subscriptions", "Configs"], 
                     datasets: [{ 
                         label: 'Links Found', 
-                        data: [1223, 480, 235, 100, 95, 59, 19, 14, 8], 
+                        data: [1224, 478, 229, 100, 96, 59, 19, 19, 7], 
                         backgroundColor: ["rgba(40, 80, 120, 0.8)", "rgba(75, 145, 170, 0.8)", "rgba(110, 210, 220, 0.8)", "rgba(145, 20, 15, 0.8)", "rgba(180, 85, 65, 0.8)", "rgba(215, 150, 115, 0.8)", "rgba(250, 215, 165, 0.8)", "rgba(30, 25, 215, 0.8)", "rgba(65, 90, 10, 0.8)"], 
                         borderColor: ["rgba(40, 80, 120, 1)", "rgba(75, 145, 170, 1)", "rgba(110, 210, 220, 1)", "rgba(145, 20, 15, 1)", "rgba(180, 85, 65, 1)", "rgba(215, 150, 115, 1)", "rgba(250, 215, 165, 1)", "rgba(30, 25, 215, 1)", "rgba(65, 90, 10, 1)"],
                         borderWidth: 1 
